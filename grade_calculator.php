@@ -32,17 +32,17 @@
         <h3 class="text-center mb-3">Grade Calculator</h3>
         <div class="mb-3">
             <label for="score_1" class="form-label">score 1</label>
-            <input type="number" min="0" max="100" class="form-control" name="score_1" id="score_1">
+            <input type="number" min="0" max="100" class="form-control" name="score_1" id="score_1" required>
         </div>
 
         <div class="mb-3">
             <label for="score_2" class="form-label">score 2</label>
-            <input type="number" min="0" max="100" class="form-control" name="score_2" id="score_2">
+            <input type="number" min="0" max="100" class="form-control" name="score_2" id="score_2" required>
         </div>
 
         <div class="mb-3">
             <label for="score_3" class="form-label">score 3</label>
-            <input type="number" min="0" max="100" class="form-control" name="score_3" id="score_3">
+            <input type="number" min="0" max="100" class="form-control" name="score_3" id="score_3" required>
         </div>
 
         <button type="submit" class="btn btn-dark mb-3">Average Grade</button>
