@@ -32,12 +32,12 @@
         <h3 class="text-center mb-3">Comparison tool</h3>
         <div class="mb-3">
             <label for="number_1" class="form-label">Number 1</label>
-            <input type="number" class="form-control" name="number_1" id="number_1">
+            <input type="number" class="form-control" name="number_1" id="number_1" required>
         </div>
 
         <div class="mb-3">
             <label for="number_2" class="form-label">Number 2</label>
-            <input type="number" class="form-control" name="number_2" id="number_2">
+            <input type="number" class="form-control" name="number_2" id="number_2" required>
         </div>
 
         <button type="submit" class="btn btn-dark mb-3">Check</button>

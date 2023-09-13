@@ -31,7 +31,7 @@
     <form class="border my-auto py-4 px-2 rounded text-white" method="POST" action="<?= $_SERVER['PHP_SELF']; ?>">
         <h3 class="text-center mb-3">Even Odd Checker</h3>
         <div class="mb-3">
-            <input type="number" class="form-control" name="number" id="number" placeholder="Enter a number...">
+            <input type="number" class="form-control" name="number" id="number" placeholder="Enter a number..." required>
         </div>
 
         <button type="submit" class="btn btn-dark mb-3">Check</button>
