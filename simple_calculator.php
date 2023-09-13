@@ -36,19 +36,20 @@
         </div>
 
         <div class="mb-3">
-            <label for="num_2" class="form-label denominator">Number 2</label>
-            <input name="num_2" type="number" step="any" class="form-control" id="num_2" required>
-        </div>
-
-        <div class="mb-3">
             <label for="operation" class="mb-1">Operation</label>
             <select class="form-select" name="operation" id="operation">
                 <option value="add" selected>Addition</option>
                 <option value="subtract">Subtraction</option>
-                <option value="multipy">Multiplication</option>
+                <option value="multiply">Multiplication</option>
                 <option value="divide">Division</option>
             </select>
         </div>
+
+        <div class="mb-3">
+            <label for="num_2" class="form-label denominator">Number 2</label>
+            <input name="num_2" type="number" step="any" class="form-control" id="num_2" required>
+        </div>
+
 
         <button type="submit" class="btn btn-dark mb-3">Show Answer</button>
 
